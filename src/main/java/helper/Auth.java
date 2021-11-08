@@ -7,8 +7,8 @@ package helper;
 
 /**
  *
- * @author DMX
+ * @author balis
  */
-public class Date {
+public class Auth {
     
 }
