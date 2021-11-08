@@ -6,12 +6,14 @@
 package helper;
 
 import java.sql.*;
+
 /**
  *
  * @author balis
  */
 public class JDBCHelper {
 
+    // Can doi mat khau SQLServer sang 1221 va ten DB la QuanLyKhachSan
     public static String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
     public static String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=QuanLyKhachSan";
     public static String USERNAME = "sa";

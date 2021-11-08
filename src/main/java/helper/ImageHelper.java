@@ -20,6 +20,7 @@ import javax.swing.ImageIcon;
  */
 public class ImageHelper {
 
+    //anh va logo duoc luu tai src\main\resources\logos
     public static void saveImage(File src) {
         File dir = new File("src\\main\\resources\\logos", src.getName());
         if (!dir.exists()) {
