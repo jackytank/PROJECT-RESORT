@@ -23,7 +23,12 @@
             <artifactId>mssql-jdbc</artifactId>
             <version>9.4.0.jre16</version>
         </dependency>
-
+        <!-- https://search.maven.org/artifact/com.formdev/flatlaf/1.6.1/jar -->
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf</artifactId>
+            <version>1.6.1</version>
+        </dependency>
 
     </dependencies>
 </project>
