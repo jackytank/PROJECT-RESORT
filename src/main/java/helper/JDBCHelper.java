@@ -18,17 +18,21 @@ public class JDBCHelper {
     public static String DB_URL = "jdbc:sqlserver://localhost:1433;databaseName=QuanLyKhachSan";
     public static String USERNAME = "sa";
     public static String PASSWORD = "1221";
+    public static Connection conn = null;
 
     static {
         try {
             Class.forName(DRIVER);
-        } catch (ClassNotFoundException e) {
-            throw new RuntimeException(e);
+            conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
+            System.out.println("connect successfully(kết nối thành công)");
+        } catch (ClassNotFoundException ex) {
+            System.out.println("lỗi thiếu thư viện");
+        } catch (SQLException ex) {
+            System.out.println("lỗi kết nối csdl");
         }
     }
 
     public static PreparedStatement preparedStatement(String SQL, Object... args) throws SQLException {
-        Connection conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
         PreparedStatement stmt = null;
         if (SQL.trim().startsWith("{")) {
             stmt = conn.prepareCall(SQL); //proc
@@ -47,7 +51,7 @@ public class JDBCHelper {
             try {
                 return stmt.executeQuery();
             } finally {
-
+                
             }
         } catch (SQLException ex) {
             throw new RuntimeException(ex);
