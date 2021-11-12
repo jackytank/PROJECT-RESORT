@@ -1,50 +1,49 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class Luong {
-    private String MaLuong;
-    private int LuongTheoGio;
-    private int SoGioLam;
-    private String GhiChu;
 
-    public String getMaLuong() {
-        return MaLuong;
+    private String maluong;
+    private String luonggio;
+    private String sogiolam;
+    private String ghichu;
+
+    public String getMaluong() {
+        return maluong;
     }
 
-    public void setMaLuong(String MaLuong) {
-        this.MaLuong = MaLuong;
+    public void setMaluong(String maluong) {
+        this.maluong = maluong;
     }
 
-    public int getLuongTheoGio() {
-        return LuongTheoGio;
+    public String getLuonggio() {
+        return luonggio;
     }
 
-    public void setLuongTheoGio(int LuongTheoGio) {
-        this.LuongTheoGio = LuongTheoGio;
+    public void setLuonggio(String luonggio) {
+        this.luonggio = luonggio;
     }
 
-    public int getSoGioLam() {
-        return SoGioLam;
+    public String getSogiolam() {
+        return sogiolam;
     }
 
-    public void setSoGioLam(int SoGioLam) {
-        this.SoGioLam = SoGioLam;
+    public void setSogiolam(String sogiolam) {
+        this.sogiolam = sogiolam;
     }
 
-    public String getGhiChu() {
-        return GhiChu;
+    public String getGhichu() {
+        return ghichu;
     }
 
-    public void setGhiChu(String GhiChu) {
-        this.GhiChu = GhiChu;
+    public void setGhichu(String ghichu) {
+        this.ghichu = ghichu;
     }
-    
 }

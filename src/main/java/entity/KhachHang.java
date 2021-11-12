@@ -1,22 +1,23 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class KhachHang {
+
     private String MaKH;
-    private String MaLoaiKH;
     private String TenKH;
-    private int Tuoi;
-    private boolean GioiTinh;
-    private String SoDienThoai;
+    private String SDT;
     private String CMND;
+    private String Tuoi;
+    private String MaLoaiKH;
+
+    private boolean GioiTinh;
 
     public String getMaKH() {
         return MaKH;
@@ -24,14 +25,6 @@ public class KhachHang {
 
     public void setMaKH(String MaKH) {
         this.MaKH = MaKH;
-    }
-
-    public String getMaLoaiKH() {
-        return MaLoaiKH;
-    }
-
-    public void setMaLoaiKH(String MaLoaiKH) {
-        this.MaLoaiKH = MaLoaiKH;
     }
 
     public String getTenKH() {
@@ -42,28 +35,12 @@ public class KhachHang {
         this.TenKH = TenKH;
     }
 
-    public int getTuoi() {
-        return Tuoi;
+    public String getSDT() {
+        return SDT;
     }
 
-    public void setTuoi(int Tuoi) {
-        this.Tuoi = Tuoi;
-    }
-
-    public boolean isGioiTinh() {
-        return GioiTinh;
-    }
-
-    public void setGioiTinh(boolean GioiTinh) {
-        this.GioiTinh = GioiTinh;
-    }
-
-    public String getSoDienThoai() {
-        return SoDienThoai;
-    }
-
-    public void setSoDienThoai(String SoDienThoai) {
-        this.SoDienThoai = SoDienThoai;
+    public void setSDT(String SDT) {
+        this.SDT = SDT;
     }
 
     public String getCMND() {
@@ -72,6 +49,30 @@ public class KhachHang {
 
     public void setCMND(String CMND) {
         this.CMND = CMND;
+    }
+
+    public String getTuoi() {
+        return Tuoi;
+    }
+
+    public void setTuoi(String Tuoi) {
+        this.Tuoi = Tuoi;
+    }
+
+    public String getMaLoaiKH() {
+        return MaLoaiKH;
+    }
+
+    public void setMaLoaiKH(String MaLoaiKH) {
+        this.MaLoaiKH = MaLoaiKH;
+    }
+
+    public boolean isGioiTinh() {
+        return GioiTinh;
+    }
+
+    public void setGioiTinh(boolean GioiTinh) {
+        this.GioiTinh = GioiTinh;
     }
     
 }

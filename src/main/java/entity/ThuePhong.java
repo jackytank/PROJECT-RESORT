@@ -1,35 +1,23 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
-import java.sql.Date;
-
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class ThuePhong {
-    private int MaDatPhong;
+
     private String MaKH;
     private String MaPhong;
-    private boolean LoaiHinhThue;
-    private Date NgayThue;
-    private Date NgayTra;
-    private int SoNguoi;
+    private String NgayThue;
+    private String NgayRaDuKien;
+    private String SoNguoi;
     private String TenUser;
-    private String TinhTrang;
-    private int TienDatCoc;
-
-    public int getMaDatPhong() {
-        return MaDatPhong;
-    }
-
-    public void setMaDatPhong(int MaDatPhong) {
-        this.MaDatPhong = MaDatPhong;
-    }
+    private boolean LoaiHinhThue;
+    private double TienCoc;
 
     public String getMaKH() {
         return MaKH;
@@ -47,35 +35,27 @@ public class ThuePhong {
         this.MaPhong = MaPhong;
     }
 
-    public boolean isLoaiHinhThue() {
-        return LoaiHinhThue;
-    }
-
-    public void setLoaiHinhThue(boolean LoaiHinhThue) {
-        this.LoaiHinhThue = LoaiHinhThue;
-    }
-
-    public Date getNgayThue() {
+    public String getNgayThue() {
         return NgayThue;
     }
 
-    public void setNgayThue(Date NgayThue) {
+    public void setNgayThue(String NgayThue) {
         this.NgayThue = NgayThue;
     }
 
-    public Date getNgayTra() {
-        return NgayTra;
+    public String getNgayRaDuKien() {
+        return NgayRaDuKien;
     }
 
-    public void setNgayTra(Date NgayTra) {
-        this.NgayTra = NgayTra;
+    public void setNgayRaDuKien(String NgayRaDuKien) {
+        this.NgayRaDuKien = NgayRaDuKien;
     }
 
-    public int getSoNguoi() {
+    public String getSoNguoi() {
         return SoNguoi;
     }
 
-    public void setSoNguoi(int SoNguoi) {
+    public void setSoNguoi(String SoNguoi) {
         this.SoNguoi = SoNguoi;
     }
 
@@ -87,20 +67,19 @@ public class ThuePhong {
         this.TenUser = TenUser;
     }
 
-    public String getTinhTrang() {
-        return TinhTrang;
+    public boolean isLoaiHinhThue() {
+        return LoaiHinhThue;
     }
 
-    public void setTinhTrang(String TinhTrang) {
-        this.TinhTrang = TinhTrang;
+    public void setLoaiHinhThue(boolean LoaiHinhThue) {
+        this.LoaiHinhThue = LoaiHinhThue;
     }
 
-    public int getTienDatCoc() {
-        return TienDatCoc;
+    public double getTienCoc() {
+        return TienCoc;
     }
 
-    public void setTienDatCoc(int TienDatCoc) {
-        this.TienDatCoc = TienDatCoc;
+    public void setTienCoc(double TienCoc) {
+        this.TienCoc = TienCoc;
     }
-    
 }

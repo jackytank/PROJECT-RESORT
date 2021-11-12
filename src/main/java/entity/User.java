@@ -1,23 +1,18 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
-import java.sql.Date;
-
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class User {
+
     private String TenUser;
-    private String MatKhau;
-    private Date NgayTao;
-    private String MaQuyen;
-    private String GhiChu;
-    private String MaNV;
+    private String MK;
+    private String quyen;
 
     public String getTenUser() {
         return TenUser;
@@ -27,44 +22,19 @@ public class User {
         this.TenUser = TenUser;
     }
 
-    public String getMatKhau() {
-        return MatKhau;
+    public String getMK() {
+        return MK;
     }
 
-    public void setMatKhau(String MatKhau) {
-        this.MatKhau = MatKhau;
+    public void setMK(String MK) {
+        this.MK = MK;
     }
 
-    public Date getNgayTao() {
-        return NgayTao;
+    public String getQuyen() {
+        return quyen;
     }
 
-    public void setNgayTao(Date NgayTao) {
-        this.NgayTao = NgayTao;
+    public void setQuyen(String quyen) {
+        this.quyen = quyen;
     }
-
-    public String getMaQuyen() {
-        return MaQuyen;
-    }
-
-    public void setMaQuyen(String MaQuyen) {
-        this.MaQuyen = MaQuyen;
-    }
-
-    public String getGhiChu() {
-        return GhiChu;
-    }
-
-    public void setGhiChu(String GhiChu) {
-        this.GhiChu = GhiChu;
-    }
-
-    public String getMaNV() {
-        return MaNV;
-    }
-
-    public void setMaNV(String MaNV) {
-        this.MaNV = MaNV;
-    }
-    
 }

@@ -1,37 +1,20 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class CTDV {
-    private int MaCTDV;
-    private int MaDatPhong;
+
     private String MaDV;
-    private int DonGia;
-    private float SoLuong;
-    private int ThanhTien;
-
-    public int getMaCTDV() {
-        return MaCTDV;
-    }
-
-    public void setMaCTDV(int MaCTDV) {
-        this.MaCTDV = MaCTDV;
-    }
-
-    public int getMaDatPhong() {
-        return MaDatPhong;
-    }
-
-    public void setMaDatPhong(int MaDatPhong) {
-        this.MaDatPhong = MaDatPhong;
-    }
+    private int MaDP;
+    private int SoLuong;
+    private double ThanhTien;
+    private double DonGia;
 
     public String getMaDV() {
         return MaDV;
@@ -41,28 +24,36 @@ public class CTDV {
         this.MaDV = MaDV;
     }
 
-    public int getDonGia() {
-        return DonGia;
+    public int getMaDP() {
+        return MaDP;
     }
 
-    public void setDonGia(int DonGia) {
-        this.DonGia = DonGia;
+    public void setMaDP(int MaDP) {
+        this.MaDP = MaDP;
     }
 
-    public float getSoLuong() {
+    public int getSoLuong() {
         return SoLuong;
     }
 
-    public void setSoLuong(float SoLuong) {
+    public void setSoLuong(int SoLuong) {
         this.SoLuong = SoLuong;
     }
 
-    public int getThanhTien() {
+    public double getThanhTien() {
         return ThanhTien;
     }
 
-    public void setThanhTien(int ThanhTien) {
+    public void setThanhTien(double ThanhTien) {
         this.ThanhTien = ThanhTien;
+    }
+
+    public double getDonGia() {
+        return DonGia;
+    }
+
+    public void setDonGia(double DonGia) {
+        this.DonGia = DonGia;
     }
     
 }

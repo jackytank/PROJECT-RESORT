@@ -1,19 +1,19 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package entity;
 
 /**
  *
- * @author Admin
+ * @author tamnt
  */
 public class DichVu {
+
     private String MaDV;
     private String TenDV;
     private String DonVi;
-    private int DonGia;
+    private String DonGia;
     private String GhiChu;
 
     public String getMaDV() {
@@ -40,11 +40,11 @@ public class DichVu {
         this.DonVi = DonVi;
     }
 
-    public int getDonGia() {
+    public String getDonGia() {
         return DonGia;
     }
 
-    public void setDonGia(int DonGia) {
+    public void setDonGia(String DonGia) {
         this.DonGia = DonGia;
     }
 
@@ -55,5 +55,5 @@ public class DichVu {
     public void setGhiChu(String GhiChu) {
         this.GhiChu = GhiChu;
     }
-    
+
 }
